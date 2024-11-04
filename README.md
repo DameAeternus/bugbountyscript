@@ -164,7 +164,7 @@ Copy code
     
     Copy code
     
-    `git clone https://github.com/yourusername/bugbounty-script.git`
+    `git clone https://github.com/DameAeternus/bugbounty-script.git`
     
 2. Navigate to the project directory:
     
