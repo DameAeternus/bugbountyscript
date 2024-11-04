@@ -17,19 +17,11 @@ Make sure you have Go installed and the necessary tools for the script to functi
 ### Install Go
 
 1. Download and install Go by following the instructions here. For Linux, you can use the following commands:
-    
-    bash
-    
-    Copy code
 
     `sudo apt install golang-go`
     
 3. Set up Go in your `~/.zshrc`:
-    
-    bash
-    
-    Copy code
-    
+ 
     `echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.zshrc`
    
     `echo 'export GOPATH=$HOME/go' >> ~/.zshrc `
@@ -39,11 +31,7 @@ Make sure you have Go installed and the necessary tools for the script to functi
     `source ~/.zshrc`
     
 5. Verify Go installation:
-    
-    bash
-    
-    Copy code
-    
+
     `go version`
     
 
@@ -53,71 +41,37 @@ After Go is set up, you need to install several tools. Use the following command
 
 #### Subdomain Enumeration
 
-bash
-
-Copy code
-
 `go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest`
 
 #### Httpx (for probing live subdomains):
-
-
 
 sudo apt-install httpx-toolkit
 
 #### Nuclei (for vulnerability scanning):
 
-bash
-
-Copy code
-
 `go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest`
 
 Make sure to update nuclei templates with:
-
-bash
-
-Copy code
 
 `nuclei -ut`
 
 #### Dalfox (for XSS testing):
 
-bash
-
-Copy code
-
 `go install github.com/hahwul/dalfox/v2@latest`
 
 #### Gau (Get All URLs):
-
-bash
-
-Copy code
 
 `go install github.com/lc/gau/v2/cmd/gau@latest`
 
 #### Anew (for deduplication):
 
-bash
-
-Copy code
-
 `sudo go install -v github.com/tomnomnom/anew@latest && sudo cp /root/go/bin/anew /usr/bin/`
 
 #### Waybackurls (for archived URL collection):
 
-bash
-
-Copy code
-
 `go install github.com/tomnomnom/waybackurls@latest`
 
 #### SubEnum (clone and install manually):
-
-bash
-
-Copy code
 
 `git clone https://github.com/bing0o/SubEnum.git`
 
@@ -138,21 +92,11 @@ Copy code
 #### Other Tools:
 
 - **QSReplace**:
-    
-    bash
-    
-    Copy code
-    
+  
     `go install github.com/tomnomnom/qsreplace@latest`
     
 - **Uro**:
     
-    bash
-    
-    Copy code
-    
-    `go install github.com/s0md3v/uro@latest`
-  OR
     `pip install uro`
     
 
@@ -160,34 +104,18 @@ Copy code
 
 1. Clone this repository:
     
-    bash
-    
-    Copy code
-    
     `git clone https://github.com/DameAeternus/bugbounty-script.git`
     
 2. Navigate to the project directory:
-    
-    bash
-    
-    Copy code
     
     `cd bugbounty-script`
     
 3. Make the script executable:
     
-    bash
-    
-    Copy code
-    
     `chmod +x bugbounty.py`
     
 4. Run the script:
-    
-    bash
-    
-    Copy code
-    
+  
     `python3 bugbounty.py <target-domain>`
     
 
