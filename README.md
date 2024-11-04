@@ -97,8 +97,10 @@ Copy code
     
 - **Uro**:
     
-    `pip install uro`
-    
+    `git clone https://github.com/s0md3v/uro.git`
+
+- **GF**
+    `go install github.com/tomnomnom/gf@latest`
 
 ### Usage
 
