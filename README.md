@@ -21,10 +21,10 @@ Make sure you have Go installed and the necessary tools for the script to functi
     bash
     
     Copy code
+
+    `sudo apt install golang-go`
     
-    `wget https://golang.org/dl/go1.18.3.linux-amd64.tar.gz sudo tar -C /usr/local -xzf go1.18.3.linux-amd64.tar.gz`
-    
-2. Set up Go in your `~/.zshrc`:
+3. Set up Go in your `~/.zshrc`:
     
     bash
     
@@ -32,7 +32,7 @@ Make sure you have Go installed and the necessary tools for the script to functi
     
     `echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.zshrc echo 'export GOPATH=$HOME/go' >> ~/.zshrc echo 'export PATH=$PATH:$GOPATH/bin' >> ~/.zshrc source ~/.zshrc`
     
-3. Verify Go installation:
+4. Verify Go installation:
     
     bash
     
