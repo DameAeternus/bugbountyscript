@@ -53,17 +53,6 @@ Copy code
 
 `go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest`
 
-#### SubEnum (clone and install manually):
-
-bash
-
-Copy code
-
-`git clone https://github.com/bing0o/SubEnum.git`
-`cd SubEnum`
-`chmod +x setup.sh`
-`./setup.sh`
-
 #### Httpx (for probing live subdomains):
 
 
@@ -108,7 +97,7 @@ bash
 
 Copy code
 
-`go install github.com/tomnomnom/anew@latest`
+`sudo go install -v github.com/tomnomnom/anew@latest && sudo cp /root/go/bin/anew /usr/bin/`
 
 #### Waybackurls (for archived URL collection):
 
@@ -117,6 +106,17 @@ bash
 Copy code
 
 `go install github.com/tomnomnom/waybackurls@latest`
+
+#### SubEnum (clone and install manually):
+
+bash
+
+Copy code
+
+`git clone https://github.com/bing0o/SubEnum.git`
+`cd SubEnum`
+`chmod +x setup.sh`
+`./setup.sh`
 
 #### SQLMap (for SQL injection testing):
 
