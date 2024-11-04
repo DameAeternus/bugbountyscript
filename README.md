@@ -59,10 +59,10 @@ bash
 
 Copy code
 
-`git clone https://github.com/bing0o/SubEnum.git
-cd SubEnum
-chmod +x setup.sh
-./setup.sh`
+`git clone https://github.com/bing0o/SubEnum.git`
+`cd SubEnum`
+`chmod +x setup.sh`
+`./setup.sh`
 
 #### Httpx (for probing live subdomains):
 
