@@ -152,6 +152,8 @@ Copy code
     Copy code
     
     `go install github.com/s0md3v/uro@latest`
+  OR
+    `pip install uro`
     
 
 ### Usage
