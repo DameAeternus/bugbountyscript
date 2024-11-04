@@ -114,8 +114,11 @@ bash
 Copy code
 
 `git clone https://github.com/bing0o/SubEnum.git`
+
 `cd SubEnum`
+
 `chmod +x setup.sh`
+
 `./setup.sh`
 
 #### SQLMap (for SQL injection testing):
