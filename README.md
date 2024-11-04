@@ -30,7 +30,10 @@ Make sure you have Go installed and the necessary tools for the script to functi
     
     Copy code
     
-    `echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.zshrc echo 'export GOPATH=$HOME/go' >> ~/.zshrc echo 'export PATH=$PATH:$GOPATH/bin' >> ~/.zshrc source ~/.zshrc`
+    `echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.zshrc 
+    echo 'export GOPATH=$HOME/go' >> ~/.zshrc 
+    echo 'export PATH=$PATH:$GOPATH/bin' >> ~/.zshrc 
+    source ~/.zshrc`
     
 4. Verify Go installation:
     
