@@ -91,6 +91,17 @@ Copy code
 
 `sudo apt install sqlmap`
 
+#### SQLiFinder:
+
+`git clone https://github.com/americo/sqlifinder`
+
+`cd sqlifinder`
+
+`pip3 install -r requirements.txt`
+
+Fix the path for it, in code on sqlifinder.py, on 72 line add:
+`file = open('/home/kali/Desktop/sqlifinder/payloads.txt', 'r')`
+
 #### Other Tools:
 
 - **QSReplace**:
