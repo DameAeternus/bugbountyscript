@@ -37,6 +37,8 @@ Make sure you have Go installed and the necessary tools for the script to functi
 
 ### Install Necessary Tools
 
+`apt install pipx`
+
 After Go is set up, you need to install several tools. Use the following commands to install each tool:
 
 #### Subdomain Enumeration
@@ -97,7 +99,7 @@ Copy code
     
 - **Uro**:
     
-    `git clone https://github.com/s0md3v/uro.git`
+    `pipx install uro`
 
 - **GF**
     `go install github.com/tomnomnom/gf@latest`
